@@ -1,36 +1,51 @@
-#Logo{
-    color: white;
-}
-
-nav{
-    background-color: grey;
-    display: flex;
-    justify-content:space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 10px;
-}
-
-.nav-enlace{
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    display: inline-block;
-}
-
-.nav-enlace:hover{
-    color: white;
-}
-
 body{
-    background-color: wheat;
+    background-color: rgb(247, 240, 227);
     font-family: 'Poppins'; 
+    margin: 0;
+    }
+.logo{float: left;
+        text-align: left;
+}
+.titulo{text-align: center;}
+.menu{
+    background-color: grey;
+    padding: 20px;
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
 
 }
 
-div{
+.menu li:hover ul{
+    display: block;
+}
+
+.menu ul{
+    display: none;
+    position:absolute;
+    top: 100%;
+    background-color: rgb(128, 128, 128);
+    padding: 30px 15px;
+    border-radius: 10px;
+    
+}
+
+
+.menu ul li a{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.boton {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+p{
     text-align: center;
 }
 
