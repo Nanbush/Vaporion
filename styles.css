@@ -1,0 +1,39 @@
+#Logo{
+    color: white;
+}
+
+nav{
+    background-color: grey;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+}
+
+.nav-enlace{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.nav-enlace:hover{
+    color: white;
+}
+
+body{
+    background-color: wheat;
+    font-family: 'Poppins'; 
+
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    color: black;
+}
