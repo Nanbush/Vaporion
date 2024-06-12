@@ -6,7 +6,15 @@ body{
 .logo{float: left;
         text-align: left;
 }
-.titulo{text-align: center;}
+.cabecera{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
 .menu{
     background-color: grey;
     padding: 20px;
